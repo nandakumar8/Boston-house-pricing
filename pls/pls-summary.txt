@@ -1,0 +1,26 @@
+> summary(plsFit)
+Data: 	X dimension: 379 13 
+	Y dimension: 379 1
+Fit method: kernelpls
+Number of components considered: 13
+
+VALIDATION: RMSEP
+Cross-validated using 10 random segments.
+       (Intercept)  1 comps  2 comps  3 comps  4 comps  5 comps  6 comps  7 comps  8 comps  9 comps  10 comps
+CV          0.0464  0.04525  0.03973  0.03976  0.03974  0.02546  0.02338  0.02288  0.02269  0.02262   0.02263
+adjCV       0.0464  0.04523  0.03970  0.03973  0.03970  0.02488  0.02336  0.02284  0.02265  0.02257   0.02257
+       11 comps  12 comps  13 comps
+CV      0.02257   0.02258   0.02193
+adjCV   0.02252   0.02252   0.02187
+
+TRAINING: % variance explained
+      1 comps  2 comps  3 comps  4 comps  5 comps  6 comps  7 comps  8 comps  9 comps  10 comps  11 comps
+X      99.998   100.00   100.00      100   100.00   100.00   100.00   100.00   100.00    100.00    100.00
+MEDV    5.657    28.52    28.84       29    74.71    76.04    77.43    78.04    78.29     78.38     78.45
+      12 comps  13 comps
+X       100.00    100.00
+MEDV     78.46     79.69
+> 
+> defaultSummary(pls.eval)
+      RMSE   Rsquared 
+0.09180797 0.40276022 

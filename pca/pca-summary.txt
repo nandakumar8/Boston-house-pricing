@@ -1,0 +1,24 @@
+> comp
+Call:
+princomp(x = x, cor = F, scores = T)
+
+Standard deviations:
+   Comp.1    Comp.2    Comp.3    Comp.4    Comp.5    Comp.6    Comp.7    Comp.8    Comp.9   Comp.10   Comp.11 
+2.4728001 1.1960111 1.1136251 0.9251380 0.9127793 0.8100049 0.7309570 0.6287404 0.5257338 0.4688311 0.4308674 
+  Comp.12   Comp.13 
+0.4110576 0.2517613 
+
+ 13  variables and  506 observations.
+> plot(comp)
+> biplot(comp)
+> plot(comp)
+> summary(comp)
+Importance of components:
+                          Comp.1    Comp.2    Comp.3     Comp.4     Comp.5     Comp.6     Comp.7     Comp.8
+Standard deviation     2.4728001 1.1960111 1.1136251 0.92513799 0.91277933 0.81000491 0.73095696 0.62874042
+Proportion of Variance 0.4712961 0.1102519 0.0955859 0.06596732 0.06421661 0.05056978 0.04118124 0.03046902
+Cumulative Proportion  0.4712961 0.5815480 0.6771339 0.74310121 0.80731782 0.85788760 0.89906884 0.92953786
+                           Comp.9    Comp.10   Comp.11    Comp.12     Comp.13
+Standard deviation     0.52573378 0.46883107 0.4308674 0.41105764 0.251761292
+Proportion of Variance 0.02130333 0.01694137 0.0143088 0.01302331 0.004885328
+Cumulative Proportion  0.95084120 0.96778257 0.9820914 0.99511467 1.000000000

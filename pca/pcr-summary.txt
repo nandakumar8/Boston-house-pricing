@@ -1,0 +1,23 @@
+> summary(pcr)
+Data: 	X dimension: 379 13 
+	Y dimension: 379 1
+Fit method: svdpc
+Number of components considered: 13
+
+VALIDATION: RMSEP
+Cross-validated using 10 random segments.
+       (Intercept)  1 comps  2 comps  3 comps  4 comps  5 comps  6 comps  7 comps  8 comps  9 comps  10 comps
+CV          0.0464  0.04514  0.03960  0.03957  0.03952  0.03967  0.03138  0.02418  0.02398  0.02313   0.02322
+adjCV       0.0464  0.04513  0.03957  0.03955  0.03949  0.03964  0.03140  0.02408  0.02392  0.02309   0.02318
+       11 comps  12 comps  13 comps
+CV      0.02258   0.02248   0.02188
+adjCV   0.02254   0.02243   0.02182
+
+TRAINING: % variance explained
+      1 comps  2 comps  3 comps  4 comps  5 comps  6 comps  7 comps  8 comps  9 comps  10 comps  11 comps
+X      99.998   100.00   100.00   100.00   100.00   100.00   100.00    100.0   100.00     100.0    100.00
+MEDV    5.657    28.03    28.46    28.86    28.91    56.53    74.21     74.8    76.42      76.5     77.75
+      12 comps  13 comps
+X       100.00    100.00
+MEDV     78.46     79.69
+> 
